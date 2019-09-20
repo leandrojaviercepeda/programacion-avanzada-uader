@@ -39,10 +39,7 @@
             swal("Are you sure you want to do this?", {
                 buttons: {
                     cancel: 'No!',
-                    ok: {
-                        text: 'Yes!',
-                        value: 'catch'
-                    }
+                    ok: 'yes!'
                 },
             }).then((value) => {
                 if (value) window.location.reload();
