@@ -1,4 +1,10 @@
-<section class="ae-container-fluid rk-main">
+{{> head}}
+
+  <body class="top-fixed">
+    
+    {{> header}}
+
+    <section class="ae-container-fluid rk-main">
       <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
       <div class="ae-container-fluid rk-layout-ctrl-cont">
         <label for="layout-base" class="rk-layout-ctrl">
@@ -102,3 +108,10 @@
         </div>
       </section>
 </section>
+
+    {{> footer}}
+
+        <script src="assets/js/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
+  </body>
+</html>
